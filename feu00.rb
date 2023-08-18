@@ -1,4 +1,4 @@
-#Partie 2 : Parsing
+#Partie 1 : Parsing
 length = ARGV[0].to_i
 width = ARGV[1].to_i
 
@@ -25,7 +25,7 @@ def rectangle_display(length, width)
 	return string_rectangle
 end
 
-#Partie 1 : Gestion d'erreur
+#Partie 2 : Gestion d'erreur
 if length <= 0 || width <= 0
 	puts "error : Invalid Dimensions"
 	exit
