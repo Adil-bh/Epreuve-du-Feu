@@ -42,7 +42,6 @@ def set_types_to_array_values(array)
 	return output_array
 end
 
-
 def processValue(value, postfix_expression, stack, operator_priority)
 	if value.is_a?(Integer)
 		postfix_expression << value
